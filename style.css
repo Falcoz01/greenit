@@ -132,3 +132,36 @@
   width: 100vw;
   height: 30vh;
 }
+
+.icon1{
+  font-size: 25px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.texte{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.sp10{
+  color: white;
+  
+}
+
+.icon1 a{
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #80808075;
+  margin: 10px;
+}
