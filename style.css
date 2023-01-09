@@ -4,8 +4,13 @@
     background-color: rgb(14, 77, 5);
     width: 98.9vw;
     height: 10vh;
+    position: fixed;
+    z-index: 10;
 }
 
+.d1 a{
+  text-decoration: none;
+}
 .image1{
     height: 50px;
     width: 50px;
@@ -45,7 +50,7 @@
     font-size: large;
   }
 
-  .a:hover{
+  .d1 u:hover{
     text-decoration: underline;
   }
 
@@ -81,12 +86,13 @@
     font-weight: bold;
     
   }
+ 
   .sp8{
     color: rgb(255, 255, 255);
     display: flex;
     position: absolute;
     z-index: 2;
-    top: 580px;
+    top: 520px;
     left: 100px;
     font-size: xx-large;
     font-weight: bold;
@@ -96,6 +102,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 70vh;
   }
 
 
@@ -110,8 +117,14 @@
   top: 200px;
   width: 1535px;
   height: 500px;
+  z-index: 6;
 }
-
+.sp11{
+  position: relative;
+  color: white;
+  z-index: 7;
+  bottom: 250px;
+}
 .sp9{
   color: white;
   font-size: xx-large;
@@ -164,4 +177,20 @@
   padding: 10px;
   background-color: #80808075;
   margin: 10px;
+}
+
+.carousel-control-prev{
+  color: white;
+}
+
+.d4 h5,p{
+  color: white;
+  position: relative;
+  bottom: 350px;
+  right: 350px;
+}
+
+.image4{
+  width: 100vw;
+  height: 82vh;
 }
