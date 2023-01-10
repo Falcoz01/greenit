@@ -5,7 +5,7 @@
     width: 98.9vw;
     height: 10vh;
     position: fixed;
-    z-index: 10;
+    z-index: 99;
 }
 
 .d1 a{
@@ -183,14 +183,69 @@
   color: white;
 }
 
-.d4 h5,p{
+.p1{
   color: white;
   position: relative;
-  bottom: 350px;
+  bottom: 70px;
   right: 350px;
+  font-size: 22px;
 }
 
 .image4{
   width: 100vw;
   height: 82vh;
+}
+
+.p2{
+  color: white;
+  position: relative;
+  bottom: 80px;
+  left: 270px;
+  font-size: 24px;
+}
+
+.p3{
+  color: white;
+  position: relative;
+  bottom: 80px;
+  right: 350px;
+  font-size: 22px;
+}
+
+.t1{
+  color: rgb(68, 200, 28);
+  position: relative;
+  bottom: 100px;
+  right: 330px;
+  font-size: 35px;
+  
+}
+
+.t2{
+  color: rgb(68, 200, 28);
+  position: relative;
+  bottom: 100px;
+  left: 250px;
+  font-size: 35px;
+  
+}
+
+.image5{
+  width: 100vw;
+  height: 82vh;
+}
+.t3{
+  color: rgb(68, 200, 28);
+  position: relative;
+  bottom: 150px;
+  right: 35px;
+  font-size: 35px;
+  
+}
+.p3{
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 100px;
+  right: 35px;
+  font-size: 22px;
 }
